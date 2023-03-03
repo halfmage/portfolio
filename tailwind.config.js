@@ -1,5 +1,9 @@
 module.exports = {
-    content: ["./_site/**/*.html"],
-    darkMode: "media",
-    plugins: [],
+  content: ["_site/**/*.html"],
+  theme: {
+    fontFamily: {
+      'sans': ['Inter V', 'sans-serif']
+    }
+  },
+  plugins: [],
 }

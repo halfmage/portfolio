@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerrit Halfmann — Portfolio</title>
+
+    <link rel="stylesheet" href="/style.css?v={% version %}" />
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <script src="/alpine.js?v={% version %}"></script>
+    <script src="/medium-zoom.js?v={% version %}"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <div class="max-w-screen-xl px-4 mx-auto">
+        <!-- Hero starts -->
+        <div class="grid grid-cols-8 gap-8 xl:gap-24 items-center py-8 xl:py-16">
+            <div class="col-span-8 md:col-span-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 xl:w-16" fill="none" viewBox="0 0 64 64">
+                    <path fill="currentColor" fill-rule="evenodd" d="M32 0c8.837 0 16.837 3.582 22.627 9.373L43.314 20.686A15.95 15.95 0 0 0 32 16c-8.837 0-16 7.163-16 16s7.163 16 16 16V32h32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0Z" clip-rule="evenodd"/>
+                </svg>                  
+                <h1 class="font-black text-3xl md:text-4xl xl:text-6xl leading-tight my-4 md:my-8">
+                    Gerrit Halfmann<br>
+                    <span class="text-gray-400">
+                        Your creative web<br>
+                        development partner
+                    </span>
+                </h1>
+                <p class="xl:text-lg tracking-tight">
+                    Hi, I'm Gerrit, and I specialize in inclusive design implementation. I work with companies and agencies around the world, building Web user interfaces and digital products with focus on responsive design, accessibility, performance, and cutting-edge tech.
+                </p>
+            </div>
+            <img class="col-span-8 md:col-span-3 w-full h-80 md:h-auto object-cover" src="avatar2023.png" alt="">
+        </div>
+        <!-- Hero ends -->
+
+        <!-- Work starts -->
+        <div class="py-8 xl:py-16">
+            <h2 class="font-black text-2xl xl:text-4xl text-center mb-8">A wild mix of branding, logo and website references</h2>
+            <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/chain4travel.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/camino-network.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/qizify.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/existentialpsychiatry.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/eb-becker.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/majesticons.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/existentialpsychiatry.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/chain4travel.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/camino-network.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/qizify.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/majesticons.png" alt=""></div>
+                <div class="col-span-6 md:col-span-4 xl:col-span-3"><img data-zoomable src="work/eb-becker.png" alt=""></div>
+            </div>
+        </div>
+        <!-- Work ends -->
+    </div>
+
+    <script>
+        const zoom = mediumZoom('[data-zoomable]', {
+            margin: 24
+        })
+    </script>
+</body>
+</html>
