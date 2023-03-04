@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf _tmp & eleventy --serve & tailwindcss tailwind.css -o _tmp/style.css --watch",
+    "start": "eleventy --serve & tailwindcss tailwind.css -o _site/style.css --watch",
     "build": "ELEVENTY_PRODUCTION=true eleventy & NODE_ENV=production tailwindcss tailwind.css -o _site/style.css"
   },
   "repository": {

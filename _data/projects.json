@@ -1,0 +1,30 @@
+[
+    {
+        "logo": "/images/camino.png",
+        "name": "Camino Network",
+        "teaser": "Camino is the travel industry blockchain. Fueled by the Camino token, it is offering a versatile platform to expand current business models and to create new touristic products to delight travelers and business partners.",
+        "tags": [ "Branding", "Design", "Website" ],
+        "url": "https://camino.network"
+    },
+    {
+        "logo": "/images/chain4travel.png",
+        "name": "Chain4Travel",
+        "teaser": "Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B, B2C and D2C with over 120 supporters from the travel industry.",
+        "tags": [ "Branding", "Design", "Website" ],
+        "url": "https://chain4travel.com"
+    },
+    {
+        "logo": "/images/qizify.png",
+        "name": "Qizify Learning",
+        "teaser": "An online learning platform that empowers your students to learn by creating and solving quizzes related to their study program while tracking performance.",
+        "tags": [ "Branding", "Design", "Website" ],
+        "url": "https://qizify.com/en"
+    },
+    {
+        "logo": "/images/ebbecker.png",
+        "name": "Majesticons Icons",
+        "teaser": "Majestic looking iconset with 720 free MIT License icons in two styles. Carefully crafted with and for Figma. Change stroke-width, corner radius and colors easily.",
+        "tags": [ "Personal", "Icons", "Design" ],
+        "url": "https://www.majesticons.com"
+    }
+]
