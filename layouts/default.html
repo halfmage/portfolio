@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerrit Halfmann — Portfolio</title>
+    <link rel="stylesheet" href="/style.css?v={% version %}" />
+    <script src="/alpine.js?v={% version %}"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 pb-16">
+
+    <div class="max-w-screen-lg p-4 xl:p-16 mx-auto">
+    {% block content %}{% endblock %}
+
+    <footer class="flex items-center justify-between">
+        <div>
+            <span class="font-black">Gerrit Halfmann</span> <br> Webdesign & Development
+        </div>
+        <a href="/imprint">Imprint</a>
+    </footer>
+
+    </div>
+    
+</body>
+</html>

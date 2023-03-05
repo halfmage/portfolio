@@ -3,7 +3,7 @@
         "logo": "/images/camino.png",
         "name": "Camino Network",
         "teaser": "Camino is the travel industry blockchain. Fueled by the Camino token, it is offering a versatile platform to expand current business models and to create new touristic products to delight travelers and business partners.",
-        "tags": [ "Branding", "Design", "Website" ],
+        "tags": [ "Branding", "Design System", "Website" ],
         "url": "https://camino.network"
     },
     {
@@ -21,7 +21,7 @@
         "url": "https://qizify.com/en"
     },
     {
-        "logo": "/images/ebbecker.png",
+        "logo": "/images/majesticons.png",
         "name": "Majesticons Icons",
         "teaser": "Majestic looking iconset with 720 free MIT License icons in two styles. Carefully crafted with and for Figma. Change stroke-width, corner radius and colors easily.",
         "tags": [ "Personal", "Icons", "Design" ],
@@ -29,15 +29,15 @@
     },
     {
         "logo": "/images/ebbecker.png",
-        "name": "Majesticons Icons",
-        "teaser": "Majestic looking iconset with 720 free MIT License icons in two styles. Carefully crafted with and for Figma. Change stroke-width, corner radius and colors easily.",
-        "tags": [ "Personal", "Icons", "Design" ],
-        "url": "https://www.majesticons.com"
+        "name": "Nutritional consultant",
+        "teaser": "You may only need professional nutritional advice once in your life - but you can benefit from it for the rest of your life. Ute Becker is happy to accompany and support you on your way to a healthy diet.",
+        "tags": [ "Branding", "Design", "Development", "Hosting" ],
+        "url": "https://qizify.com/en"
     },
     {
-        "logo": "/images/ebbecker.png",
-        "name": "Majesticons Icons",
-        "teaser": "Majestic looking iconset with 720 free MIT License icons in two styles. Carefully crafted with and for Figma. Change stroke-width, corner radius and colors easily.",
+        "logo": "/images/pixelarticons.png",
+        "name": "Pixelarticons",
+        "teaser": "480 open-source line pixel-art style icons, in one color and made with a 24x24px grid by Gerrit Halfmann . Pro version with 1,422 icons with 3 variants!",
         "tags": [ "Personal", "Icons", "Design" ],
         "url": "https://www.majesticons.com"
     }
