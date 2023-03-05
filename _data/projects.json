@@ -1,41 +1,41 @@
 [
     {
-        "logo": "/images/camino.png",
+        "logo": "./images/camino.png",
         "name": "Camino Network",
         "teaser": "Camino is the travel industry blockchain. Fueled by the Camino token, it is offering a versatile platform to expand current business models and to create new touristic products to delight travelers and business partners.",
         "tags": [ "Branding", "Design System", "Website" ],
         "url": "https://camino.network"
     },
     {
-        "logo": "/images/chain4travel.png",
+        "logo": "./images/chain4travel.png",
         "name": "Chain4Travel",
         "teaser": "Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B, B2C and D2C with over 120 supporters from the travel industry.",
         "tags": [ "Branding", "Design", "Website" ],
         "url": "https://chain4travel.com"
     },
     {
-        "logo": "/images/qizify.png",
+        "logo": "./images/qizify.png",
         "name": "Qizify Learning",
         "teaser": "An online learning platform that empowers your students to learn by creating and solving quizzes related to their study program while tracking performance.",
         "tags": [ "Branding", "Design", "Website" ],
         "url": "https://qizify.com/en"
     },
     {
-        "logo": "/images/majesticons.png",
+        "logo": "./images/majesticons.png",
         "name": "Majesticons Icons",
         "teaser": "Majestic looking iconset with 720 free MIT License icons in two styles. Carefully crafted with and for Figma. Change stroke-width, corner radius and colors easily.",
         "tags": [ "Personal", "Icons", "Design" ],
         "url": "https://www.majesticons.com"
     },
     {
-        "logo": "/images/ebbecker.png",
+        "logo": "./images/ebbecker.png",
         "name": "Nutritional consultant",
         "teaser": "You may only need professional nutritional advice once in your life - but you can benefit from it for the rest of your life. Ute Becker is happy to accompany and support you on your way to a healthy diet.",
         "tags": [ "Branding", "Design", "Development", "Hosting" ],
         "url": "https://qizify.com/en"
     },
     {
-        "logo": "/images/pixelarticons.png",
+        "logo": "./images/pixelarticons.png",
         "name": "Pixelarticons",
         "teaser": "480 open-source line pixel-art style icons, in one color and made with a 24x24px grid by Gerrit Halfmann . Pro version with 1,422 icons with 3 variants!",
         "tags": [ "Personal", "Icons", "Design" ],
