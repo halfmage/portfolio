@@ -34,8 +34,8 @@ async function imageShortcode(src, alt, sizes, imgClass) {
 }
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addWatchTarget('./tailwind.config.js')
-    eleventyConfig.addWatchTarget('./tailwind.css')
+    eleventyConfig.addWatchTarget('tailwind.config.js')
+    eleventyConfig.addWatchTarget('tailwind.css')
     eleventyConfig.addPassthroughCopy('images')
     eleventyConfig.addPassthroughCopy('fonts')
     eleventyConfig.addPassthroughCopy({ './node_modules/alpinejs/dist/cdn.js': './alpine.js' })

@@ -50,5 +50,29 @@
     </div>
     <!-- Projects end -->
 
+    <!-- Testimonial start -->
+    <div class="mb-16 lg:mb-32">
+        <h2 class="font-black text-xl sm:text-4xl mb-3 sm:mb-8">
+            Testimonials <span class="text-gray-500">and feedback</span>
+        </h2>
+        {% for a in testimonials %}
+        <div class="block md:flex items-start p-4 md:p-6 bg-gray-50 rounded-lg relative mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-2 md:mb-0 w-12 md:w-16 flex-shrink-0 text-gray-700" fill="none" viewBox="0 0 24 24">
+                <path fill="currentColor" d="m15 17 2-4h-4V6h7v7l-2 4h-3Zm-9 0 2-4H4V6h7v7l-2 4H6Z"/>
+            </svg>
+            <div class="md:ml-6">
+                <div class="text-base md:text-xl mb-4">
+                    {{a.text}}
+                </div>
+                <div class="text-sm md:text-base flex items-center">
+                    {% image a.slug, a.name, "", "w-8 h-8 rounded-full mr-2" %}
+                    <span class="font-bold">{{a.name}}</span>&nbsp->&nbsp{{a.company}}
+                </div>
+            </div>
+        </div>
+        {% endfor %}     
+    </div>
+    <!-- Testimonial end -->
+
 
 {% endblock %}
