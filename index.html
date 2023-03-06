@@ -4,7 +4,7 @@
 
     <!-- Hero starts -->
     <div class="mb-16 lg:mb-32">
-        {% image "./images/avatar2023.png", "Portrait of Gerrit Halfmann", "", "w-20 lg:w-32 aspect-square object-cover rounded-full" %}
+        {% image "./images/avatar2023.png", "Portrait of Gerrit Halfmann", "", "w-32 aspect-square object-cover rounded-full" %}
         <h1 class="font-black text-3xl sm:text-4xl lg:text-6xl my-4 sm:my-8">
             Gerrit Halfmann<br>
             <span class="text-gray-500">
@@ -64,9 +64,12 @@
                 <div class="text-base md:text-xl mb-4">
                     {{a.text}}
                 </div>
-                <div class="text-sm md:text-base flex items-center">
-                    {% image a.slug, a.name, "", "w-8 h-8 rounded-full mr-2" %}
-                    <span class="font-bold">{{a.name}}</span>&nbsp->&nbsp{{a.company}}
+                <div class="text-sm flex items-center">
+                    {% image a.slug, a.name, "", "w-12 h-12 rounded-full mr-4 md:mr-3" %}
+                    <div class="">
+                        <div class="font-bold">{{a.name}}</div>
+                        <div>{{a.company}}</div>
+                    </div>
                 </div>
             </div>
         </div>
