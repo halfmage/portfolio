@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gerrit Halfmann - Webdesign & Development",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & tailwindcss -i ./tailwind.css -o _site/style.css --watch",
