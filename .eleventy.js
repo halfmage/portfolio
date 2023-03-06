@@ -45,7 +45,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode)
     eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
         if (
-            process.env.ELEVENTY_PRODUCTION &&
             outputPath &&
             outputPath.endsWith('.html')
         ) {
