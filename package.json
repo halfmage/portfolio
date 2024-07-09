@@ -4,8 +4,8 @@
   "description": "Gerrit Halfmann - Webdesign & Development",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve & tailwindcss -i tailwind.css -o _site/style.css --watch",
-    "build": "eleventy && tailwindcss -i tailwind.css -o _site/style.css"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,11 @@
   "homepage": "https://github.com/halfmage/portfolio#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.0.0",
-    "alpinejs": "^3.11.1",
-    "html-minifier": "^4.0.0",
-    "npm-run-all": "^4.1.5",
-    "tailwindcss": "^3.2.7"
+    "@11ty/eleventy-img": "^4.0.2",
+    "alpinejs": "^3.14.1",
+    "html-minifier": "^4.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }
