@@ -1,37 +1,29 @@
-const htmlmin = require('html-minifier')
-const {eleventyImagePlugin} = require("@11ty/eleventy-img")
-const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
 const now = String(Date.now())
+const Image = require("@11ty/eleventy-img");
+const htmlmin = require('html-minifier')
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget('tailwind.config.js')
     eleventyConfig.addWatchTarget('tailwind.css')
     eleventyConfig.addPassthroughCopy('favicon.png')
-    eleventyConfig.addPassthroughCopy('avatar2023.png')
+    eleventyConfig.addPassthroughCopy('img')
     eleventyConfig.addPassthroughCopy({ './node_modules/alpinejs/dist/cdn.js': './alpine.js' })
 
-	// WebC
-	eleventyConfig.addPlugin(eleventyWebcPlugin, {
-		components: [
-			// …
-			// Add as a global WebC component
-			"npm:@11ty/eleventy-img/*.webc",
-		],
-	});
+	eleventyConfig.addShortcode("image", async function (src, alt, sizes) {
+		let metadata = await Image(src, {
+			widths: [300, 600],
+			formats: ["avif", "jpeg"],
+		});
 
-	// Image plugin
-	eleventyConfig.addPlugin(eleventyImagePlugin, {
-		// Set global default options
-		formats: ["webp", "jpeg"],
-		urlPath: "/img/",
-
-		// Notably `outputDir` is resolved automatically
-		// to the project output directory
-
-		defaultAttributes: {
+		let imageAttributes = {
+			alt,
+			sizes,
 			loading: "lazy",
 			decoding: "async",
-		},
+		};
+
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);
 	});
 
     // HTML minifier

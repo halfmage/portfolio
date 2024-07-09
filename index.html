@@ -11,27 +11,21 @@
     <meta name="theme-color" content="#fff">
 
     <style>
+        img {
+            height: 128px;
+            width: 128px;
+            object-fit: cover;
+        }
         body {
             line-height: 1.5;
             font-size: 20px;
-        }
-        .portrait {
-            object-fit: cover;
-            height: 128px;
-            width: 128px;
         }
         h1,h2 {margin: 0;}
     </style>
 </head>
 
 <body>
-    <img
-        webc:is="eleventy-image"
-        src="avatar2023.png"
-        alt="Gerrit Halfmann Portrait"
-        width="128, 128"
-        class="portrait"
-    />
+    {% image "avatar2023.png", "Gerrit Halfmann Portrait", "(min-width: 30em) 50vw, 100vw" %}
 
     <h1>Gerrit Halfmann</h1>
     <h2>Design and dev partner</h2>
