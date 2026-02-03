@@ -15,13 +15,18 @@
             height: 96px;
             width: 96px;
             object-fit: cover;
-            rotate: 4deg
+            rotate: -4deg;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            transition: all 0.25s ease-in-out;
+        }
+        img:hover {
+            rotate: -364deg;
         }
         body {
             line-height: 1.5;
             font-size: 16px;
             padding: 1rem;
-            max-width: 400px;
+            max-width: 480px;
             margin: 0 auto;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
         }
@@ -32,6 +37,8 @@
             text-decoration: none;
         }
         h1,h2 {margin: 0;}
+        em { font-size: 13px; color: #666; }
+        li { margin-bottom: 0.25rem; }
     </style>
 </head>
 
@@ -46,11 +53,11 @@
     <ul>
         <li>🆕 <a style="font-weight: bold;" href="https://pixelarticons.com" target="_blank">Pixelarticons!!!</a> - <em>from €99</em></li>
         <li>👑 <a href="https://majesticons.com" target="_blank">Majesticons</a> - <em>from €99</em></li>
-        <li>🎓 <a href="https://learnslice.com/en/">LearnSlice</a> - <em>Automate mentoring</em></li>
+        <li>🎓 <a href="https://learnslice.com/">LearnSlice</a> - <em>Automate mentoring</em></li>
         <li>🧳 <a href="https://logos.travel" target="_blank">Logos.travel</a> - <em>Logos for travel</em></li>
         <li>📝 <a href="https://explainmyletter.com" target="_blank">Explainmyletter</a> - <em>Complex letters explained</em></li>
-        <li>🔥 Elemental TCG - <em>soon</em></li>
-        <li>🤑 Expatinvoice - <em>soon</em></li>
+        <li>🤑 Expatinvoice - <em>Minimalist invoicing, soon</em></li>
+        <li>🔥 Battle Zone Business - <em>Business-themed TCG, soon</em></li>
     </ul>
 
     <!-- Simple Analytics. Protects your privacy -->
